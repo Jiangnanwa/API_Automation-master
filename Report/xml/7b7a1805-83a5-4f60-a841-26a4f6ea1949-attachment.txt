@@ -1,2 +1,0 @@
-DEBUG    urllib3.connectionpool:connectionpool.py:975 Starting new HTTPS connection (1): t.10jqka.com.cn:443
-DEBUG    urllib3.connectionpool:connectionpool.py:461 https://t.10jqka.com.cn:443 "GET /portfolio/base/getPortfolioIncomeInfo?id=1751&startDate=2023-05-10&endDate=2024-05-10 HTTP/1.1" 200 None

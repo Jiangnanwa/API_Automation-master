@@ -1,2 +1,0 @@
-DEBUG    urllib3.connectionpool:connectionpool.py:975 Starting new HTTPS connection (1): dq.10jqka.com.cn:443
-DEBUG    urllib3.connectionpool:connectionpool.py:461 https://dq.10jqka.com.cn:443 "GET /fuyao/tg_package/group/v1/unsubscribed_group_info?gid=17591&loginUserId=361412857 HTTP/1.1" 200 None

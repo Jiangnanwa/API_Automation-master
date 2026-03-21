@@ -652,3 +652,10 @@
 [ERROR 2026-03-21 12:02:17]Response body Does not contain expected_msg, expected_msg is 1751
 [ERROR 2026-03-21 12:02:20]Response body != expected_msg, expected_msg is 计算机应用, body is 软件开发
 [INFO 2026-03-21 12:02:21]邮件发送成功
+[INFO 2026-03-21 15:37:50]初始化配置文件, path=d:\UI\API_Automation-master\Conf\config.ini
+[INFO 2026-03-21 15:38:13]解析yaml, Path:d:\UI\API_Automation-master/Params/Param/Basic.yaml
+[INFO 2026-03-21 15:38:13]解析yaml, Path:d:\UI\API_Automation-master/Params/Param/Collections.yaml
+[INFO 2026-03-21 15:38:13]解析yaml, Path:d:\UI\API_Automation-master/Params/Param/Personal.yaml
+[INFO 2026-03-21 15:38:13]解析yaml, Path:d:\UI\API_Automation-master/Params/Param/Portfolio.yaml
+[INFO 2026-03-21 15:38:13]解析yaml, Path:d:\UI\API_Automation-master/Params/Param/shop.yaml
+[INFO 2026-03-21 15:38:24]邮件发送成功
