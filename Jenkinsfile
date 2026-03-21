@@ -18,7 +18,7 @@ pipeline {
                     :: 使用 Jenkins 提供的工作空间路径
                     set WORKSPACE=%WORKSPACE%
                     set VENV=%WORKSPACE%\\venv
-                    set PYTHON_EXE="C:\\python3.8\\python.exe"
+                    set PYTHON_EXE="D:\\python3.8\\python.exe"
 
                     echo ===== Creating virtual environment =====
                     %PYTHON_EXE% -m venv %VENV%
