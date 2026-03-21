@@ -11,15 +11,17 @@ pipeline {
         stage('Setup and Run') {
             steps {
                 bat '''
+                    chcp 65001
                     @echo off
                     setlocal
 
                     :: 使用 Jenkins 提供的工作空间路径
                     set WORKSPACE=%WORKSPACE%
                     set VENV=%WORKSPACE%\\venv
+                    set PYTHON_EXE="C:\\python3.8\\python.exe"
 
                     echo ===== Creating virtual environment =====
-                    python -m venv %VENV%
+                    %PYTHON_EXE% -m venv %VENV%
                     if %errorlevel% neq 0 (
                         echo Failed to create venv
                         exit /b %errorlevel%
