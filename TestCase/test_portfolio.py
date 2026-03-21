@@ -33,7 +33,7 @@ class TestPortfolio:
         assert test.assert_code(response['code'], 200)
         assert test.assert_in_text(response['body'],'1751')
         assert test.assert_time(response['time_consuming'], 500)
-        Consts.RESULT_LIST.append('True')
+        Consts.RESULT_LIST.append('第一个True')
 
     @allure.feature('Home')
     @allure.severity('blocker')
