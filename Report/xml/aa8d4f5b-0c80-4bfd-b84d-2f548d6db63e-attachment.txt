@@ -1,0 +1,3 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:975 Starting new HTTPS connection (1): t.10jqka.com.cn:443
+DEBUG    urllib3.connectionpool:connectionpool.py:461 https://t.10jqka.com.cn:443 "GET /portfolio/base/myPortfolioList HTTP/1.1" 200 67
+ERROR    root:Log.py:88 [ERROR 2026-03-21 12:02:17]Response body Does not contain expected_msg, expected_msg is 1751

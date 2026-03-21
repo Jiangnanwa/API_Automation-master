@@ -1,0 +1,2 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:975 Starting new HTTPS connection (1): t.10jqka.com.cn:443
+DEBUG    urllib3.connectionpool:connectionpool.py:461 https://t.10jqka.com.cn:443 "GET /portfolioedge/calculate/v1/get_portfolio_profitability?id=1751 HTTP/1.1" 200 None

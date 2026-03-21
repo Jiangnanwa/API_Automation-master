@@ -1,0 +1,4 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:975 Starting new HTTPS connection (1): t.10jqka.com.cn:443
+DEBUG    urllib3.connectionpool:connectionpool.py:461 https://t.10jqka.com.cn:443 "GET /groupchat/member/judgeIsMember?gid=18337 HTTP/1.1" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:975 Starting new HTTPS connection (1): dq.10jqka.com.cn:443
+DEBUG    urllib3.connectionpool:connectionpool.py:461 https://dq.10jqka.com.cn:443 "GET /fuyao/tg_package/package/v1/get_package_portfolio_infos?product_id=1751&product_type=portfolio HTTP/1.1" 200 None

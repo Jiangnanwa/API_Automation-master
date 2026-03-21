@@ -1,2 +1,0 @@
-DEBUG    urllib3.connectionpool:connectionpool.py:823 Starting new HTTPS connection (1): t.10jqka.com.cn
-DEBUG    urllib3.connectionpool:connectionpool.py:394 https://t.10jqka.com.cn:443 "GET /portfolio/v2/position/get_position_industry_info?id=1751 HTTP/1.1" 200 398
