@@ -60,7 +60,7 @@ class TestPortfolio:
         assert response['code'] == 200
         assert test.assert_text(test_value,'2022111843VJQhxYsx144939')   # 返回数据的商品id正确
         assert test.assert_time(response['time_consuming'], 500)
-        Consts.RESULT_LIST.append('True')
+        Consts.RESULT_LIST.append('第二个True')
         # 记录该组合对应的群聊信息，在case10中会用到
         return test_group
 
