@@ -1,0 +1,149 @@
+---
+Portfolio:
+  dec: "组合数据"
+  parameters:
+    -
+      url: /portfolio/base/myPortfolioList
+      data:
+      header: {
+                 "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko)\
+                  Chrome/67.0.3396.99 Safari/537.36",
+                 "Content-Type": "application/x-www-form-urlencoded"
+              }
+
+    -
+      url: /fuyao/tg_package/package/v1/get_package_portfolio_infos?product_id=1751&product_type=portfolio
+      data:
+      header: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko)\
+                      Chrome/67.0.3396.99 Safari/537.36",
+        "Content-Type": "application/x-www-form-urlencoded"
+      }
+
+    - url: /fuyao/tg_package/package/v1/get_owner_principal_info?product_id=1751&product_type=portfolio&userid=361412857
+      data:
+      header: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko)\
+                          Chrome/67.0.3396.99 Safari/537.36",
+        "Content-Type": "application/x-www-form-urlencoded"
+      }
+
+    - url: /newbrokerage/adviser/getAdviserInfo?userId=361412857
+      data:
+      header: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko)\
+                          Chrome/67.0.3396.99 Safari/537.36",
+        "Content-Type": "application/x-www-form-urlencoded"
+      }
+
+    - url: /portfolio/v2/position/get_position_income_info?id=1751
+      data:
+      header: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko)\
+                          Chrome/67.0.3396.99 Safari/537.36",
+        "Content-Type": "application/x-www-form-urlencoded"
+      }
+
+    - url: /portfolio/base/getPortfolioIncomeInfo?id=1751&startDate=2023-05-10&endDate=2024-05-10
+      data:
+      header: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko)\
+                            Chrome/67.0.3396.99 Safari/537.36",
+        "Content-Type": "application/x-www-form-urlencoded"
+      }
+
+    - url: /fuyao/tg_package/package/v1/get_package_feature_info?product_id=1751&product_type=portfolio
+      data:
+      header: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko)\
+                              Chrome/67.0.3396.99 Safari/537.36",
+        "Content-Type": "application/x-www-form-urlencoded"
+      }
+
+    - url: /portfolio/v2/position/get_position_industry_info?id=1751
+      data:
+      header: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko)\
+                                  Chrome/67.0.3396.99 Safari/537.36",
+        "Content-Type": "application/x-www-form-urlencoded"
+      }
+
+    - url: /portfolio/base/showRelocateData?portfolioId=1751
+      data:
+      header: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko)\
+                                      Chrome/67.0.3396.99 Safari/537.36",
+        "Content-Type": "application/x-www-form-urlencoded"
+      }
+
+    - url: /groupchat/member/judgeIsMember?gid=18337
+      data:
+      header: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko)\
+                                          Chrome/67.0.3396.99 Safari/537.36",
+        "Content-Type": "application/x-www-form-urlencoded"
+      }
+
+    - url: /portfolio/post/v2/get_newest_relocate_post?id=1751
+      data:
+      header: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko)\
+                                              Chrome/67.0.3396.99 Safari/537.36",
+        "Content-Type": "application/x-www-form-urlencoded"
+      }
+
+    - url: /portfolioedge/calculate/v1/get_portfolio_profit_probability?id=1751
+      data:
+      header: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko)\
+                                                  Chrome/67.0.3396.99 Safari/537.36",
+        "Content-Type": "application/x-www-form-urlencoded"
+      }
+
+    - url: /portfolioedge/calculate/v1/get_portfolio_profitability?id=1751
+      data:
+      header: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko)\
+                                                      Chrome/67.0.3396.99 Safari/537.36",
+        "Content-Type": "application/x-www-form-urlencoded"
+      }
+
+    - url: /fuyao/tg_package/group/v1/unsubscribed_group_info?gid=17591&loginUserId=361412857
+      data:
+      header: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko)\
+                                  Chrome/67.0.3396.99 Safari/537.36",
+        "Content-Type": "application/x-www-form-urlencoded"
+      }
+
+    - url: /portfolio/relocate/v2/get_history_position_list?id=1751&stockCode=
+      data:
+      header: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko)\
+                                                          Chrome/67.0.3396.99 Safari/537.36",
+        "Content-Type": "application/x-www-form-urlencoded"
+      }
+
+    - url: /portfolio/relocate/auth/getPortfolioHoldingData?id=1751
+      data:
+      header: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko)\
+                                                              Chrome/67.0.3396.99 Safari/537.36",
+        "Content-Type": "application/x-www-form-urlencoded"
+      }
+
+    - url: /portfolio/relocate/user/getPortfolioHoldingData?id=5941
+      data:
+      header: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko)\
+                                                                  Chrome/67.0.3396.99 Safari/537.36",
+        "Content-Type": "application/x-www-form-urlencoded"
+      }
+
+    - url: /portfolio/relocate/getCompositionCategory?stocks=300033_33
+      data:
+      header: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko)\
+                                                                      Chrome/67.0.3396.99 Safari/537.36",
+        "Content-Type": "application/x-www-form-urlencoded"
+      }

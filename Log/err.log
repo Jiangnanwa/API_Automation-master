@@ -1,0 +1,73 @@
+[ERROR 2018-08-24 09:55:37]Response body != expected_msg, expected_msg is {"error":"继续操作前请注册或者登录9."}, body is {"error":"继续操作前请注册或者登录."}
+[ERROR 2018-08-24 09:59:43]Response body != expected_msg, expected_msg is {"error":"继续操作前请注册或者登录9."}, body is {"error":"继续操作前请注册或者登录."}
+[ERROR 2018-08-24 10:00:11]Response time > expected_time, expected_time is 400, time is 482.745
+[ERROR 2018-08-24 10:00:12]Response body != expected_msg, expected_msg is {"error":"继续操作前请注册或者登录9."}, body is {"error":"继续操作前请注册或者登录."}
+[ERROR 2018-08-25 21:49:38]Response time > expected_time, expected_time is 100, time is 671.038
+[ERROR 2018-08-25 21:49:41]statusCode error, expected_code is 208, statusCode is 200 
+[ERROR 2019-05-07 16:27:15]邮件发送失败，请检查邮件配置
+[ERROR 2019-05-07 16:28:20]邮件发送失败，请检查邮件配置
+[ERROR 2019-05-07 16:30:44]邮件发送失败，请检查邮件配置
+[ERROR 2019-05-07 17:04:57]邮件发送失败，请检查邮件配置
+[ERROR 2019-06-03 16:33:25]邮件发送失败，请检查邮件配置
+[ERROR 2019-07-08 17:31:01]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-11 21:18:28]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-11 21:20:24]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-11 21:24:44]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-19 20:05:34]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-19 20:06:55]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-19 20:16:02]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-19 20:22:30]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-19 21:25:36]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-19 21:28:21]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-20 16:30:08]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-20 16:44:36]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-20 16:46:52]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-20 17:03:59]statusCode error, expected_code is 401, statusCode is 200 
+[ERROR 2024-03-20 17:04:00]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2024-03-20 17:04:00]statusCode error, expected_code is 208, statusCode is 404 
+[ERROR 2024-03-20 17:04:06]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-20 17:08:35]statusCode error, expected_code is 401, statusCode is 200 
+[ERROR 2024-03-20 17:08:35]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2024-03-20 17:08:35]statusCode error, expected_code is 208, statusCode is 404 
+[ERROR 2024-03-20 17:08:41]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-20 17:09:17]statusCode error, expected_code is 401, statusCode is 200 
+[ERROR 2024-03-20 17:09:18]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2024-03-20 17:09:18]statusCode error, expected_code is 208, statusCode is 404 
+[ERROR 2024-03-20 17:09:24]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-21 16:08:39]statusCode error, expected_code is 401, statusCode is 200 
+[ERROR 2024-03-21 16:08:40]statusCode error, expected_code is 200, statusCode is 404 
+[ERROR 2024-03-21 16:08:40]statusCode error, expected_code is 208, statusCode is 404 
+[ERROR 2024-03-21 16:08:52]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-21 16:48:45]Response body Does not contain expected_msg, expected_msg is 组合17511
+[ERROR 2024-03-21 16:48:50]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-21 16:51:41]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-21 16:52:49]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-21 17:01:56]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-21 17:03:47]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-21 17:04:39]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-21 17:05:52]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-21 17:06:49]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-21 17:08:35]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-21 17:11:52]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-21 17:12:26]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-21 17:13:33]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-21 17:17:42]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-21 17:18:39]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-21 17:19:13]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-21 17:20:06]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-21 17:28:18]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-21 19:45:27]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-21 20:24:10]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-21 20:26:49]Response time > expected_time, expected_time is 100, time is 173.795
+[ERROR 2024-03-21 20:26:54]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-21 20:28:06]邮件发送失败，请检查邮件配置
+[ERROR 2024-03-22 18:10:58]邮件发送失败，请检查邮件配置
+[ERROR 2024-06-17 20:30:29]Response body != expected_msg, expected_msg is 361412857, body is 361412857
+[ERROR 2024-06-17 20:40:46]Response body != expected_msg, expected_msg is 361412857, body is 361412857
+[ERROR 2024-06-17 20:56:51]Response body != expected_msg, expected_msg is 219, body is 219
+[ERROR 2024-06-17 20:57:28]Response body Does not contain expected_msg, expected_msg is ['平安测试券商2', '平安测试券商']
+[ERROR 2024-06-17 21:15:05]Response time > expected_time, expected_time is 100, time is 257.378
+[ERROR 2024-06-17 21:15:05]Response time > expected_time, expected_time is 100, time is 104.515
+[ERROR 2024-06-17 21:20:54]Response body != expected_msg, expected_msg is Z涨停平安组合付费群5941, body is {}
+[ERROR 2024-06-17 21:29:13]Response body != expected_msg, expected_msg is Z涨停平安组合付费群5941, body is {}
+[ERROR 2024-06-18 09:21:06]Response body != expected_msg, expected_msg is Z涨停平安组合付费群5941, body is {}

@@ -1,0 +1,99 @@
+{
+  "uid" : "91ae9de1daa7b216",
+  "name" : "test_portfolio_11",
+  "fullName" : "TestCase.test_portfolio.TestPortfolio#test_portfolio_11",
+  "historyId" : "3bef200d94fa2ecc7af86b655ee488ee",
+  "time" : {
+    "start" : 1718674027979,
+    "stop" : 1718674028015,
+    "duration" : 36
+  },
+  "description" : "\n            用例描述：组合详情页-获取组合盈利概率，盈利概率没有符合条件的数据时data字段为null。这里只需要判断接口请求成功即可\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述：组合详情页-获取组合盈利概率，盈利概率没有符合条件的数据时data字段为null。这里只需要判断接口请求成功即可\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "action",
+    "time" : {
+      "start" : 1718674027978,
+      "stop" : 1718674027979,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\n            用例描述：组合详情页-获取组合盈利概率，盈利概率没有符合条件的数据时data字段为null。这里只需要判断接口请求成功即可\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e341bc0eb90fc934",
+      "name" : "log",
+      "source" : "e341bc0eb90fc934.txt",
+      "type" : "text/plain",
+      "size" : 279
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Home"
+  }, {
+    "name" : "story",
+    "value" : "Portfolio"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_portfolio"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPortfolio"
+  }, {
+    "name" : "host",
+    "value" : "web-10-4-158"
+  }, {
+    "name" : "thread",
+    "value" : "1308-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_portfolio"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "91ae9de1daa7b216.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,55 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jun 18 09:27:07 CST 2024","Tue Jun 18 09:27:07 CST 2024","250","TestCase","test_portfolio","TestPortfolio","","","test_portfolio_01","
+            用例描述：获取组合产品信息
+        "
+"passed","Tue Jun 18 09:27:07 CST 2024","Tue Jun 18 09:27:08 CST 2024","36","TestCase","test_portfolio","TestPortfolio","","","test_portfolio_11","
+            用例描述：组合详情页-获取组合盈利概率，盈利概率没有符合条件的数据时data字段为null。这里只需要判断接口请求成功即可
+        "
+"passed","Tue Jun 18 09:27:07 CST 2024","Tue Jun 18 09:27:07 CST 2024","205","TestCase","test_portfolio","TestPortfolio","","","test_portfolio_09","
+            用例描述：组合详情页-判断用户是否在群里
+        "
+"passed","Tue Jun 18 09:27:07 CST 2024","Tue Jun 18 09:27:07 CST 2024","46","TestCase","test_portfolio","TestPortfolio","","","test_portfolio_04","
+            用例描述：获取组合持仓收益、回撤信息
+        "
+"passed","Tue Jun 18 09:27:06 CST 2024","Tue Jun 18 09:27:07 CST 2024","81","TestCase","test_portfolio","TestPortfolio","","","test_portfolio_00","
+            用例描述：获我的的组合列表
+        "
+"passed","Tue Jun 18 09:27:07 CST 2024","Tue Jun 18 09:27:07 CST 2024","41","TestCase","test_portfolio","TestPortfolio","","","test_portfolio_10","
+            用例描述：组合详情页-获取组合最新的一笔调仓动态
+        "
+"passed","Tue Jun 18 09:27:07 CST 2024","Tue Jun 18 09:27:07 CST 2024","34","TestCase","test_portfolio","TestPortfolio","","","test_portfolio_07","
+            用例描述：组合详情页-获取组合持仓分布（行业）
+        "
+"passed","Tue Jun 18 09:27:07 CST 2024","Tue Jun 18 09:27:07 CST 2024","49","TestCase","test_portfolio","TestPortfolio","","","test_portfolio_03","
+            用例描述：获取投顾信息
+        "
+"passed","Tue Jun 18 09:27:08 CST 2024","Tue Jun 18 09:27:08 CST 2024","28","TestCase","test_portfolio","TestPortfolio","","","test_portfolio_17","
+            用例描述：组合详情页-持仓详情页—获取股票的成分类别（获取股票行业板块）
+        "
+"passed","Tue Jun 18 09:27:08 CST 2024","Tue Jun 18 09:27:08 CST 2024","95","TestCase","test_portfolio","TestPortfolio","","","test_portfolio_15","
+            用例描述：组合详情页-持仓详情页—获取组合持仓数据（投顾访问）
+        "
+"passed","Tue Jun 18 09:27:08 CST 2024","Tue Jun 18 09:27:08 CST 2024","47","TestCase","test_portfolio","TestPortfolio","","","test_portfolio_12","
+            用例描述：组合详情页-获取组合收益能力，收益能力没有符合条件的数据时data字段为null。这里只需要判断接口请求成功即可
+        "
+"passed","Tue Jun 18 09:27:08 CST 2024","Tue Jun 18 09:27:08 CST 2024","122","TestCase","test_portfolio","TestPortfolio","","","test_portfolio_16","
+            用例描述：组合详情页-持仓详情页—获取组合持仓数据（用户访问）
+        "
+"passed","Tue Jun 18 09:27:08 CST 2024","Tue Jun 18 09:27:08 CST 2024","47","TestCase","test_portfolio","TestPortfolio","","","test_portfolio_13","
+            用例描述：组合详情页-获取未订阅时群聊信息
+        "
+"passed","Tue Jun 18 09:27:07 CST 2024","Tue Jun 18 09:27:07 CST 2024","51","TestCase","test_portfolio","TestPortfolio","","","test_portfolio_02","
+            用例描述：获取主理人信息
+        "
+"passed","Tue Jun 18 09:27:07 CST 2024","Tue Jun 18 09:27:07 CST 2024","78","TestCase","test_portfolio","TestPortfolio","","","test_portfolio_08","
+            用例描述：组合详情页-获取持仓/调仓展示数据
+        "
+"passed","Tue Jun 18 09:27:07 CST 2024","Tue Jun 18 09:27:07 CST 2024","76","TestCase","test_portfolio","TestPortfolio","","","test_portfolio_05","
+            用例描述：组合详情页-获取组合收益走势信息
+        "
+"passed","Tue Jun 18 09:27:07 CST 2024","Tue Jun 18 09:27:07 CST 2024","37","TestCase","test_portfolio","TestPortfolio","","","test_portfolio_06","
+            用例描述：获取产品slogan和标签信息详细信息
+        "
+"passed","Tue Jun 18 09:27:08 CST 2024","Tue Jun 18 09:27:08 CST 2024","57","TestCase","test_portfolio","TestPortfolio","","","test_portfolio_14","
+            用例描述：组合详情页-获取组合历史最佳调仓列表,每次请求可能结果不一样
+        "
