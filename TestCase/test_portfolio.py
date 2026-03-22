@@ -87,7 +87,8 @@ class TestPortfolio:
         test_value = test_data.get('data', {}).get('userId', {})
         assert response['code'] == 200
         assert test.assert_text(test_value,361412857)    # 判断主理人id是否正确
-        Consts.RESULT_LIST.append('True')
+        Consts.RESULT_LIST.append('threeTrue')
+        print("添加调试")
 
     @allure.feature('Home')
     @allure.severity('blocker')

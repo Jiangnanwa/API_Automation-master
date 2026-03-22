@@ -11,7 +11,6 @@ pipeline {
         stage('Setup and Run') {
             steps {
                 bat '''
-                    chcp 65001
                     @echo off
                     setlocal
 
