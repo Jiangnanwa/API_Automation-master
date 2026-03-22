@@ -75,3 +75,5 @@
 [ERROR 2026-03-21 12:00:59]Response body != expected_msg, expected_msg is 计算机应用, body is 软件开发
 [ERROR 2026-03-21 12:02:17]Response body Does not contain expected_msg, expected_msg is 1751
 [ERROR 2026-03-21 12:02:20]Response body != expected_msg, expected_msg is 计算机应用, body is 软件开发
+[ERROR 2026-03-21 16:25:33]Response body Does not contain expected_msg, expected_msg is 1751
+[ERROR 2026-03-21 16:25:35]Response body != expected_msg, expected_msg is 计算机应用, body is 软件开发
