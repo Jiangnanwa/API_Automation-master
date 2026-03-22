@@ -57,10 +57,40 @@ pipeline {
 
     post {
         success {
-            echo 'Script executed successfully!'
+            echo 'Script executed successfully! Sending email...'
+            emailext(
+                subject: "✅ 【构建成功】自动化测试报告 - ${env.JOB_NAME} (#${env.BUILD_NUMBER})",
+                body: """
+                    <h2>🎉 项目构建成功！</h2>
+                    <hr/>
+                    <ul>
+                        <li><strong>项目名称：</strong> ${env.JOB_NAME}</li>
+                        <li><strong>构建编号：</strong> 第 ${env.BUILD_NUMBER} 次运行</li>
+                        <li><strong>运行状态：</strong> <span style="color:green;">Success (成功)</span></li>
+                        <li><strong>查看完整结果：</strong> <a href="${env.BUILD_URL}">${env.BUILD_URL}</a></li>
+                    </ul>
+                    <p>您的自动化脚本已顺利跑完，太棒啦！</p>
+                """,
+                to: "2524918238@qq.com,304840656@qq.com"  // 填你的收件邮箱。如果有多个，用逗号隔开
+            )
         }
         failure {
-            echo 'Script execution failed!'
+            echo 'Script execution failed! Sending alert email...'
+            emailext(
+                subject: "❌ 【构建失败】警报！自动化测试未通过 - ${env.JOB_NAME} (#${env.BUILD_NUMBER})",
+                body: """
+                    <h2 style="color:red;">⚠️ 项目构建失败！</h2>
+                    <hr/>
+                    <ul>
+                        <li><strong>项目名称：</strong> ${env.JOB_NAME}</li>
+                        <li><strong>构建编号：</strong> 第 ${env.BUILD_NUMBER} 次运行</li>
+                        <li><strong>运行状态：</strong> <span style="color:red;">Failure (失败)</span></li>
+                        <li><strong>查看报错日志：</strong> <a href="${env.BUILD_URL}console">${env.BUILD_URL}console</a></li>
+                    </ul>
+                    <p>请尽快点击上方链接，查看控制台日志排查报错原因。</p>
+                """,
+                to: "2524918238@qq.com" 
+            )
         }
     }
 }
