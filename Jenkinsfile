@@ -62,7 +62,7 @@ pipeline {
             echo 'Generating Allure Report...'
             script {
                 // 这里的 'allure-results' 必须与你 python 脚本里生成的文件夹名称一致
-                allure includeProperties: false, jdk: '', results:[[path: 'Report/html']]
+                allure includeProperties: false, jdk: '', results:[[path: 'Report/xml']]
             }
         }
 
