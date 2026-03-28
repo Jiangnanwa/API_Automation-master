@@ -31,7 +31,8 @@ if __name__ == '__main__':
 
     # 定义测试集，执行测试用例
     # --alluredir 在指定目录生成allure报告
-    args = ['-s', '-q', '--alluredir=allure-results', xml_report_path,'--clean-alluredir']
+    #args = ['-s', '-q', '--alluredir=allure-results', xml_report_path,'--clean-alluredir']
+    args = ['-s', '-q', '--alluredir', xml_report_path,'--clean-alluredir']
     pytest.main(args)
 
     # 将临时的xml文件生成为html文件，在后面的目录下创建allure-report目录，存放报告
